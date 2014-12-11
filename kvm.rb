@@ -3,7 +3,7 @@ require "formula"
 class Kvm < Formula
   homepage "https://www.github.com/aspnet/Home"
   version "1.0.0-beta1"
-  url "https://github.com/aspnet/Home.git", :branch => 'master'
+  url "https://github.com/aspnet/Home.git", :branch => 'dev'
 
   depends_on "mono" => :recommended
 
